@@ -1,0 +1,58 @@
+.image {
+  width: 60rem;
+}
+
+body {
+  margin-left: 230px;
+}
+
+section {
+  background-color: rgb(179, 179, 238);
+  height: 110px;
+  width: 60rem;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(179, 179, 238);
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 20rem;
+  width: 60rem;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-decoration-line: underline;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+ul {
+  background-color: rgb(215, 210, 269);
+  height: 15rem;
+  width: 15rem;
+  padding: 5px;
+}
+
+li {
+  text-decoration-line: none;
+  text-align: left;
+  margin-left: 33px;
+  margin-top: 10px;
+}
