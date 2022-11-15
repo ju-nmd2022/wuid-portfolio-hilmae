@@ -1,0 +1,144 @@
+header {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+  background-color: rgb(212, 212, 238);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.container2 {
+  display: grid;
+  grid-auto-flow: row;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 10px;
+  width: 83rem;
+  margin: auto;
+}
+
+.tablebook {
+  grid-auto-rows: 30rem;
+  margin-top: 40px;
+  height: 55rem;
+}
+
+body {
+  background-color: rgb(189, 189, 213);
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 15px;
+  }
+  .tablebook {
+    grid-auto-rows: 10rem;
+    height: 11rem;
+    margin-top: 10px;
+  }
+  .container {
+    gap: 2px;
+  }
+  .container2 {
+    font-size: 11px;
+    width: 17rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .tablebook {
+    height: 20rem;
+    margin-top: 10px;
+  }
+  .container {
+    gap: 8px;
+  }
+  .container2 {
+    font-size: 18px;
+    width: 31rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  header {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+  }
+  .tablebook {
+    height: 30rem;
+  }
+  .container {
+    gap: 1rem;
+  }
+  .container2 {
+    font-size: 22px;
+    width: 32rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  header {
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+  }
+  .tablebook {
+    height: 17rem;
+    margin-top: 10px;
+  }
+  .container {
+    gap: 8px;
+  }
+  .container2 {
+    font-size: 15px;
+    width: 26rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  header {
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+  }
+  .tablebook {
+    height: 30rem;
+    margin-top: 10px;
+  }
+  .container {
+    gap: 20px;
+  }
+  .container2 {
+    font-size: 24px;
+    width: 46rem;
+    text-align: left;
+  }
+}
