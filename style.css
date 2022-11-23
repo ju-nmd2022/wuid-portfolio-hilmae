@@ -1,18 +1,29 @@
 .headline {
   animation-name: color-change;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 3;
   animation-fill-mode: forwards;
+}
+
+header {
+  font-size: 33px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 @keyframes color-change {
   from {
     background-color: rgb(64, 73, 141);
+    font-size: 40px;
   }
   to {
     background-color: rgb(152, 155, 216);
+    font-size: 55px;
   }
 }
 
@@ -65,7 +76,7 @@ header {
 body {
   text-align: left;
   margin: 200px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   background-color: rgb(189, 189, 213);
